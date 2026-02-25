@@ -436,8 +436,10 @@ python train_model.py
 # 5. Fa predictii
 python predict.py
 ```
+
 sau
-'''
+
+```bash
 Pentru a rula pe Google Colab(cea mai recomandata optiune):
 1. Intrati pe Google Drive, urcati folderul intreg.
 2. Intrati pe Google Colab, folositi fie linkul de repo sau accesati din tabul Google Drive sau creati un notebook nou.
@@ -459,7 +461,7 @@ sau
 5. Rulati prima comanda pentru montarea directorului, apoi a doua comanda sa schimbe locatia de lucru si sa instaleze cerintele din fisierul requirements.txt
 6. Folositi una din cele doua comenzi oferite(de preferat a doua comanda) 
 7. In urma antrenarii, puteti rula ultima comanda de predictie a modelului. 
-'''
+```
 
 ### Dependinte
 
