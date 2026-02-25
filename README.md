@@ -1,4 +1,4 @@
-# Diabetes Risk Prediction
+# Predictia riscului de diabet
 
 Sistem de machine learning pentru predictia riscului de diabet pe baza indicatorilor de sanatate, folosind doua algoritmi comparate prin cross-validation.
 
@@ -448,13 +448,13 @@ Pentru a rula pe Google Colab(cea mai recomandata optiune):
 ' from google.colab import drive
 drive.mount('/content/drive', force_remount=True)'
 
-'!cd /content/drive/MyDrive/"NUME_FOLDER" && pip install -r requirements.txt'
+'!cd /content/drive/MyDrive/ai_avansat && pip install -r requirements.txt'
 
-'!cd /content/drive/MyDrive/"NUME_FOLDER" && python3 train_model.py --epochs=2048 --batch=32 --data dataset/combined_all_sources_5050.csv' (pentru antrenarea modelului, pe mai 2048 epochs si 32 batchuri)
+'!cd /content/drive/MyDrive/ai_avansat && python3 train_model.py --epochs=2048 --batch=32 --data dataset/combined_all_sources_5050.csv' (pentru antrenarea modelului, pe mai 2048 epochs si 32 batchuri)
 sau
-'!cd /content/drive/MyDrive/"NUME_FOLDER" && python3 train_model.py --epochs=4096 --batch=64 --lr=0.001 --data dataset/combined_all_sources.csv' (pentru antrenarea indeplina a modelului, pe mai multi epochs si batchuri)
+'!cd /content/drive/MyDrive/ai_avansat && python3 train_model.py --epochs=4096 --batch=64 --lr=0.001 --data dataset/combined_all_sources.csv' (pentru antrenarea indeplina a modelului, pe mai multi epochs si batchuri)
 
-'!cd /content/drive/MyDrive/"NUME_FOLDER"/ && python3 predict.py'
+'!cd /content/drive/MyDrive/ai_avansat/ && python3 predict.py'
 
 
 4. Schimbati tipul de runtime de pe CPU pe T4 GPU(sau orice alta placa video puternica daca beneficiati de un abonament Colab Pro/ Pro+ sau Enterprise)
